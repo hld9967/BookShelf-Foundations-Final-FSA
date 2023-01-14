@@ -1,0 +1,115 @@
+/*Elements in HTML File-----------------------------------------*/
+nav
+{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: aliceblue;
+}
+
+body
+{
+    padding-top: 60px;
+}
+
+.wrapper
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.topNav
+{
+    display: flex;
+    height: 55px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px grey solid;
+}
+
+.a1
+{
+    text-decoration: none;
+    color: dimgray;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+#siteName
+{
+    list-style: none;
+    font-weight: bolder;
+    font-size: 40px;
+    color: black;
+}
+
+/*Elements in About only-----------------------------------*/
+#mainAbout
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#aboutHeader
+{
+    font-size: 45px;
+    text-decoration: underline;
+}
+
+#aboutPara
+{
+    width: 75%;
+    border: solid black 1px;
+    font-size: 25px;
+    padding: 15px;
+}
+
+/* Elements in Contact only------------------------------- */
+#mainContact
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+#contactHeader
+{
+    font-size: 45px;
+    text-decoration: underline;
+}
+
+.contactPara
+{
+    width: 75%;
+    border: solid black 1px;
+    font-size: 25px;
+    padding: 15px;
+}
+
+/*Elements created via JavaScript-------------------------*/
+.commentLI
+{
+    /* list-style: georgian; */
+    font-style: italic;
+    font-size: medium;
+}
+
+#books
+{
+    box-sizing: border-box;
+    padding-top: 5px;
+    width: 250px;
+    height: 250px;
+    border: solid black 1px;
+}
+
+
